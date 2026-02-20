@@ -1,0 +1,83 @@
+
+:root {
+/* 🎨 COLORS */
+--color-bg-primary: #0B0F1A;        /* Noir profond principal */
+--color-bg-secondary: #111827;      /* Fond secondaire */
+--color-bg-card: #1A1F2E;           /* Fond cartes */
+--color-bg-overlay: rgba(0, 0, 0, 0.7);
+
+--color-text-primary: #F5F5F5;      /* Blanc cassé */
+--color-text-secondary: #D1D5DB;    /* Gris clair */
+--color-text-muted: #9CA3AF;        /* Gris discret */
+
+--color-accent-primary: #F97316;    /* Orange solaire */
+--color-accent-hover: #FB923C;      /* Orange clair hover */
+--color-accent-glow: rgba(249, 115, 22, 0.4);
+
+--color-success: #10B981;           /* Vert émeraude */
+--color-error: #EF4444;             /* Rouge profond */
+--color-warning: #FACC15;           /* Jaune doré */
+
+--color-border-primary: #2A2F45;    /* Bordures cartes */
+--color-border-muted: #374151;
+
+/* 🌫 SHADOWS */
+
+
+--shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.2);
+--shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35);
+--shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.45);
+
+--shadow-glow-accent: 0 0 15px var(--color-accent-glow);
+--shadow-glow-success: 0 0 15px rgba(16, 185, 129, 0.4);
+--shadow-glow-error: 0 0 15px rgba(239, 68, 68, 0.4);
+
+/* 📦 RADIUS */
+
+
+--radius-sm: 6px;
+--radius-md: 12px;
+--radius-lg: 20px;
+--radius-xl: 28px;
+--radius-pill: 999px;
+--radius-circle: 50%;
+/* button */
+--btn-height-sm: 36px;
+--btn-height-md: 44px;
+--btn-height-lg: 56px;
+
+--btn-padding-x: 24px;
+--btn-padding-y: 12px;
+
+--btn-transition: all 0.3s ease;
+
+/* 🔤 GOOGLE FONTS */
+
+
+--font-family-primary: 'Poppins', sans-serif;
+--font-family-secondary: 'Orbitron', sans-serif;
+
+/* Weights */
+
+--font-weight-light: 300;
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-bold: 700;
+
+/* Sizes */
+
+--font-size-xs: 0.75rem;
+--font-size-sm: 0.875rem;
+--font-size-md: 1rem;
+--font-size-lg: 1.25rem;
+--font-size-xl: 1.5rem;
+--font-size-xxl: 2rem;
+--font-size-hero: 3rem;
+
+/* Letter spacing */
+
+--letter-spacing-tight: -0.5px;
+--letter-spacing-normal: 0px;
+--letter-spacing-wide: 1px;
+--letter-spacing-hero: 3px;
+}
